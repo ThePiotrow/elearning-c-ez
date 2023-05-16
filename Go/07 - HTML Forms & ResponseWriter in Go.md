@@ -7,15 +7,15 @@
 
 ### **Question** : Which Go method(s) can be used to set the content type of an HTTP response?
 
-> ResponseWriter.Header().Set
+> `ResponseWriter.Header().Set`
 
-> ResponseWriter.WriteHeader
+> `ResponseWriter.WriteHeader`
 
 
 #
 ### **Question** : What is the name of the HTTP header used to request a specific content type from the server?
 
-> Accept
+> `Accept`
 
 
 #
@@ -24,48 +24,48 @@
 <br>
 
 Write: 
-> May determine content type based on 512 bytes
+> `May determine content type based on 512 bytes`
 
-> Writes to the response content body
+> `Writes to the response content body`
 
 WriteHeader:
-> Sets the status code to 200 OK by default
+> `Sets the status code to 200 OK by default`
 
 Header: 
-> Writes any header value to the response
+> `Writes any header value to the response`
 
 
 #
 ### **Question** : Which Go method(s) can be used to write a HTTP response’s content type?
 
-> ResponseWriter.Header
+> `ResponseWriter.Header`
 
 
 #
 ### **Question** :  What are the characteristic(s) of JSON data encoding in Go?
 
-> Keys must be strings
+> `Keys must be strings`
 
-> Function types cannot be encoded
+> `Function types cannot be encoded`
 
 
 #
 ### **Question** : Which Go method defines custom JSON marshaling for a struct?
 
-> MarshalJSON
+> `MarshalJSON`
 
 
 #
 ### **Question** : Which Go method returns two maps?
 
-> ResponseWriter.ParseMultipartForm
+> `ResponseWriter.ParseMultipartForm`
 
 
 #
 ### **Question** : Which net/http Go library attribute(s) give information about name/value pairs from the request’s content body?
 
-> Form
+> `Form`
 
-> PostForm
+> `PostForm`
 
-> MultipartForm
+> `MultipartForm`

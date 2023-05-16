@@ -35,7 +35,7 @@ fmt.Println("final value of counter", counter)
 }
 ```
 
-> mu.Lock()
+> `mu.Lock()`
 
 
 #
@@ -54,13 +54,13 @@ func g1() {
 }
 ```
 
-> go g1()
+> `go g1()`
 
 
 #
 ### **Question** : Since Go v1.1, how can the race detector be used when running a Go program?
 
-> By specifying the -race flag at the command line
+> `By specifying the -race flag at the command line`
 
 
 #
@@ -77,7 +77,7 @@ func main() {
 }
 ```
 
-> (i)
+> `(i)`
 
 
 #
@@ -93,15 +93,15 @@ func inc() func() int {
 }
 ```
 
-> func() int
+> `func() int`
 
 
 #
 ### **Question** : Which are legal ways to implement the Go race detector at the command line with a program named main.go?
 
-> go build -race main.go
+> `go build -race main.go`
 
-> go run -race main.go
+> `go run -race main.go`
 
 
 #
@@ -126,17 +126,17 @@ func myfunc(wg *sync.WaitGroup, i int) {
 }
 ```
 
-> go myfunc(&wg, i)
+> `go myfunc(&wg, i)`
 
 
 #
 ### **Question** : Which are three methods used to implement WaitGroups in goroutines?
 
-> Add()
+> `Add()`
 
-> Done()
+> `Done()`
 
-> Wait()
+> `Wait()`
 
 
 #
@@ -170,22 +170,22 @@ func main() {
 }
 ```
 
-> defer mu.Unlock()
+> `defer mu.Unlock()`
 
 #
 ### **Question** : Which are sync primitives?
 
-> sync.Mutex
+> `sync.Mutex`
 
-> sync.Once
+> `sync.Once`
 
-> sync.RWMutex
+> `sync.RWMutex`
 
 
 #
 ### **Question** : What causes race conditions in Go programs?
 
-> Unsynchronized access to shared memory
+> `Unsynchronized access to shared memory`
 
 #
 ### **Question** : Complete the code snippet to successfully implement concurrency safe incrementing using an atomic operation.
@@ -211,7 +211,7 @@ fmt.Println("counter: ", counter)
 }
 ```
 
-> atomic.AddUint64(&counter, 1)
+> `atomic.AddUint64(&counter, 1)`
 
 
 #
@@ -255,5 +255,5 @@ func main() {
 }
 ```
 
-> An int value from -1000 to 1000
+> `An int value from -1000 to 1000`
 

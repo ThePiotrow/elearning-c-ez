@@ -7,42 +7,42 @@
 
 ### **Question**: Which Go library allows you to read the body of a response as a collection of bytes?
 
-> io/ioutil
+> `io/ioutil`
 
 
 #
 ### **Question** : Which are the best practice(s) for writing code in Go?
 
-> Utilize commenting
+> `Utilize commenting`
 
-> Avoid excessive nesting
+> `Avoid excessive nesting`
 
-> Resist repetition
+> `Resist repetition`
 
-> Ensure maintainability
+> `Ensure maintainability`
 
 
 #
 ### **Question** : A http.Handler object is wrapped by Handler wrappers in the following order: Wrapper A, Wrapper B, Wrapper C. Wrapper A and Wrapper C call the ServeHTTP method of their input http.Handler object, but Wrapper B does not.
 ### Which combination represents the order of execution of the wrappers when the ServeHTTP method is called on the wrapped object?
 
-> Wrapper C, Wrapper B
+> `Wrapper C, Wrapper B`
 
 
 #
 ### **Question** : Which method contains custom handler logic in an http.Handler implementation?
 
-> ServeHTTP
+> `ServeHTTP`
 
 
 #
 ### **Question** : What are the advantages of the Go httprouter library?
 
-> Compatible with API architectures
+> `Compatible with API architectures`
 
-> High performing
+> `High performing`
 
-> Handles errors without crashing
+> `Handles errors without crashing`
 
 
 #
@@ -53,7 +53,7 @@
 Write: 
 > May determine content type based on 512 bytes
 
-> Writes to the response content body
+> `Writes to the response content body`
 
 WriteHeader:
 > Sets the status code to 200 OK by default
@@ -65,53 +65,53 @@ Header:
 #
 ### **Question** :  What are the characteristic(s) of JSON data encoding in Go?
 
-> Keys must be strings
+> `Keys must be strings`
 
-> Function types cannot be encoded
+> `Function types cannot be encoded`
 
 
 #
 ### **Question** : Which template engine feature allows dynamic template content to be translated differently as HTML or JavaScript?
 
-> Context sensitivity
+> `Context sensitivity`
 
 
 #
 ### **Question** : Which Go template range action are grammatically correct?
 
-> {{ range $a := . }}
+> `{{ range $a := . }}`
 
 
 #
 ### **Question** : What are the characteristics of the built-in template functions in Go?
 
-> Can be used as arguments
+> `Can be used as arguments`
 
-> Predefined by Go
+> `Predefined by Go`
 
 
 #
 ### **Question** : Which Go method translates binary data to struct data?
 
-> Decode
+> `Decode`
 
 
 #
 ### **Question** : Which Go method copies query results to a struct?
 
-> Scan
+> `Scan`
 
 
 #
 ### **Question** : Which Go method sets the status of an HTTP response?
 
-> WriteHeader
+> `WriteHeader`
 
 
 #
 ### **Question** : In Go, which statement will convert JSON, called jsonData, to a struct instance called instance?
 
-> json.Unmarshal(jsonData, &instance)
+> `json.Unmarshal(jsonData, &instance)`
 
 
 #
@@ -130,4 +130,4 @@ func main() {
 }
 ```
 
-> os.Stat
+> `os.Stat`

@@ -7,7 +7,7 @@
 
 ### **Question** : As a best practice, what should be used instead of long sequences of if-else statements to handle special cases in Go?
 
-> Type switching
+> `Type switching`
 
 
 #
@@ -34,21 +34,21 @@ func TestSubTable(t *testing.T) {
 }
 ```
 
-> val.expected
+> `val.expected`
 
 
 #
 ### **Question** : Which are considered Go syntax best practices?
 
-> Never declare a variable or import a package that will not be used in the program
+> `Never declare a variable or import a package that will not be used in the program`
 
-> As a workaround, use the blank identifier "_" when importing packages that won't be used
+> `As a workaround, use the blank identifier "_" when importing packages that won't be used`
 
 
 #
 ### **Question** : Which do we use to signal to the parent process that the goroutines have completed their work and the parent process can now safely carry on?
 
-> WaitGroups
+> `WaitGroups`
 
 
 #
@@ -59,13 +59,13 @@ func TestSubTable(t *testing.T) {
 #
 ### **Question** : Which function in package fmt from the standard library supports generating formatted strings for error reporting?
 
-> Errorf
+> `Errorf`
 
 
 #
 ### **Question** : Which statement runs an instance of godoc server locally over port 8080?
 
-> godoc -http=localhost:8080
+> `godoc -http=localhost:8080`
 
 
 #
@@ -104,35 +104,35 @@ func main() {
 }
 ```
 
-> done <- true
+> `done <- true`
 
 
 #
 ### **Question** : Which are common methods for organizing a directory structure for Go projects?
 
-> Modularized approach
+> `Modularized approach`
 
-> Flat approach
+> `Flat approach`
 
 
 
 #
 ### **Question** : Which statements accurately describe the defer, panic and recovery process?
 
-> Panic stops normal execution of the current goroutine
+> `Panic stops normal execution of the current goroutine`
 
-> Recover must be invoked within a deferred function call
+> `Recover must be invoked within a deferred function call`
 
 
 #
 ### **Question** : Which are benefits related to using an InitDB function to initialize a database connection pool?
 
-> All the database-related code is contained in one package
+> `All the database-related code is contained in one package`
 
-> InitDB() function can be used to initialize a test database connection pool
+> `InitDB() function can be used to initialize a test database connection pool`
 
 
 #
 ### **Question** : When testing our programs, how can we effectively write tests focused on the interface exposed to the client?
 
-> Use a separate package for storing tests
+> `Use a separate package for storing tests`

@@ -21,7 +21,7 @@ func main() {
 }
 ```
 
-> err != nil
+> `err != nil`
 
 
 
@@ -43,13 +43,13 @@ func main() {
 }
 ```
 
-> ls, err
+> `ls, err`
 
 
 #
 ### **Question** : Given that the signature for Go's built-in panic() function is func panic(v interface{}), what types of values can be passed to panic()?
 
-> Any data type
+> `Any data type`
 
 
 #
@@ -70,23 +70,23 @@ func main() {
 }
 ```
 
-> Is
+> `Is`
 
 
 #
 ### **Question** : Which statements accurately describe error handling in Go?
 
 
-> Functions may return error values
+> `Functions may return error values`
 
-> Errors in Go are simple values
+> `Errors in Go are simple values`
 
 
 #
 ### **Question** : What type of runtime error occurs when a program attempts to access memory that it is not allowed to?
 
 
-> Segmentation fault
+> `Segmentation fault`
 
 
 
@@ -118,7 +118,7 @@ func main() {
 }
 ```
 
-> s.Scan()
+> `s.Scan()`
 
 #
 ### **Question** : Assuming "myFile.txt" exists in the current directory, complete the code snippet that would result in the file name, size, and permissions being printed.
@@ -137,18 +137,18 @@ func main() {
 }
 ```
 
-> os.Stat
+> `os.Stat`
 
 
 #
 ### **Question** : What is the signature of the ReadFile function from package os?
 
 
-> func ReadFile(name string) ([]byte, error)
+> `func ReadFile(name string) ([]byte, error)`
 
 
 #
 ### **Question** : What is the signature of the New() function from package errors?
 
 
-> func New(text string) error
+> `func New(text string) error`

@@ -20,7 +20,7 @@ func main() {
 }
 ```
 
-> a panic error
+> `a panic error`
 
 
 
@@ -53,7 +53,7 @@ func main() {
 }
 ```
 
-> Wednesday
+> `Wednesday`
 
 
 #
@@ -77,29 +77,29 @@ func main() {
 }
 ```
 
-> workday
+> `workday`
 
 
 #
 ### **Question** : Which loop control statement aborts the current iteration of a for loop, but still stays in the for loop?
 
-> continue
+> `continue`
 
 
 #
 ### **Question** : What are some implementation-specific data types in Go?
 
-> uint
+> `uint`
 
-> int
+> `int`
 
-> uintptr
+> `uintptr`
 
 
 #
 ### **Question** : Which statement declares and initializes an array of four integer values in Go?
 
-> arr := [4]int{0, 1, 2, 3}
+> `arr := [4]int{0, 1, 2, 3}`
 
 
 #
@@ -120,7 +120,7 @@ func main() {
 }
 ```
 
-> range
+> `range`
 
 
 #
@@ -140,13 +140,13 @@ func main() {
 }
 ```
 
-> true
+> `true`
 
 
 #
 ### **Question** : What is the zero value for a pointer data type?
 
-> nil
+> `nil`
 
 
 #
@@ -164,7 +164,7 @@ func main() {
 }
 ```
 
-> append(sl, slAppend...)
+> `append(sl, slAppend...)`
 
 <br>
 
@@ -180,29 +180,29 @@ func main() {
 }
 ```
 
-> 1
+> `1`
 
 
 #
 ### **Question** : Which character is formally used as a blank identifier in Go?
 
-> _
+> `_`
 
 
 #
 ### **Question** : Which statement will initialize a constant myConst as an implicitly typed constant?
 
-> const myConst = 1
+> `const myConst = 1`
 
 
 #
 ### **Question** : A basic for loop in Go is made up of which components?
 
-> init statement
+> `init statement`
 
-> condition statement
+> `condition statement`
 
-> post statement
+> `post statement`
 
 
 #
@@ -222,4 +222,4 @@ func main() {
 }
 ```
 
-> *ptr
+> `*ptr`

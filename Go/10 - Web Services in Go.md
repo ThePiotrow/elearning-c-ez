@@ -7,60 +7,60 @@
 
 ### **Question** : What are the characteristics of web services in Go?
 
-> They behave like local functions
+> `They behave like local functions`
 
-> They serve data for applications
+> `They serve data for applications`
 
-> They are passed through HTTP
+> `They are passed through HTTP`
 
 
 #
 ### **Question** : In Go, which statement will convert a struct instance called instance to XML, with the first XML level indented with pluses and the second XML level indented with dots?
 
-> xml.MarshalIndent(&instance,“++”, “..“)
+> `xml.MarshalIndent(&instance,“++”, “..“)`
 
 
 #
 ### **Question** : Match the web service types to their characteristics.
 
 REST:
-> Scalable
+> `Scalable`
 
-> Common interface
+> `Common interface`
 
-> Simple
+> `Simple`
 
 SOAP:
-> High overhead
+> `High overhead`
 
-> Well documented
+> `Well documented`
 
-> More standards
+> `More standards`
 
 
 #
 ### **Question** : Map the HTTP request methods to their actions on resources in a RESTful web service.
 
 POST:
-> Creates a resource
+> `Creates a resource`
 
 GET:
-> Reads resources
+> `Reads resources`
 
 DELETE:
-> Removes a resource
+> `Removes a resource`
 
 PUT:
-> Updates a resource
+> `Updates a resource`
 
 
 #
 ### **Question** : Which Go method sets the status of an HTTP response?
 
-> WriteHeader
+> `WriteHeader`
 
 
 #
 ### **Question** : In Go, which statement will convert JSON, called jsonData, to a struct instance called instance?
 
-> json.Unmarshal(jsonData, &instance)
+> `json.Unmarshal(jsonData, &instance)`

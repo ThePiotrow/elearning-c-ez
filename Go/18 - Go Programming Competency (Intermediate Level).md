@@ -7,30 +7,30 @@
 
 ### **Question**: Complete the code to print the average of a slice of values named vals by calling the Avg function from the stats nest package.
 
-> stats.Avg(vals)
+> `stats.Avg(vals)`
 
 
 #
 ### **Question** : Which statement defines a new release version v0.2.6 for a module that you are uploading to Git Hub source code repository?
 
-> git tag v0.2.6
+> `git tag v0.2.6`
 
 
 #
 ### **Question** : Which function from the WaitGroup type does the main goroutine call to tell Go the number of goroutines to wait for?
 
-> Add()
+> `Add()`
 
 
 #
 ### **Question** : Which statement initializes a variable named ‘cores’ to the number of CPU cores on a device?
 
-> cores := runtime.NumCPU()
+> `cores := runtime.NumCPU()`
 
 #
 ### **Question** : Complete the code snippet that will run the function g1( ) as a goroutine.
 
-> go g1()
+> `go g1()`
 
 
 #
@@ -54,13 +54,13 @@ func myfunc(wg *sync.WaitGroup, i int) {
 }
 ```
 
-> go myfunc(&wg, i)
+> `go myfunc(&wg, i)`
 
 
 #
 ### **Question** : Since Go v1.1, how can the race detector be used when running a Go program?
 
-> By specifying the -race flag at the command line
+> `By specifying the -race flag at the command line`
 
 
 #
@@ -75,7 +75,7 @@ func receive(ch chan string) {
 }
 ```
 
-> <-ch
+> `<-ch`
 
 
 #
@@ -112,7 +112,7 @@ func main() {
 }
 ```
 
-> wg.Wait() // wait for the program to complete
+> `wg.Wait() // wait for the program to complete`
 
 
 #
@@ -135,19 +135,19 @@ func main() {
 }
 ```
 
-> fo1, fo2
+> `fo1, fo2`
 
 
 #
 ### **Question** : Complete the statement to generate a prepared statement to be used in a SQL query in Go against a MySQL database.
 
-> stmt, err := db.Prepare("SELECT * FROM users WHERE id=?")
+> `stmt, err := db.Prepare("SELECT * FROM users WHERE id=?")`
 
 
 #
 ### **Question** : Which variable type can be used to handle a varchar database column that is nullable?
 
-> sql.NullString
+> `sql.NullString`
 
 
 #
@@ -164,16 +164,16 @@ func TestAdd(t *testing.T) {
 }
 ```
 
-> t.Errorf
+> `t.Errorf`
 
 
 #
 ### **Question** : You are using the Heroku CLI to deploy a Go application to Heroku. Assuming that you are signed into Heroku from a terminal session, which command may be used to deploy an app named main to Heroku?
 
-> git push heroku main
+> `git push heroku main`
 
 
 #
 ### **Question** : As a best practice, what should be used instead of long sequences of if-else statements to handle special cases in Go?
 
-> Type switching
+> `Type switching`

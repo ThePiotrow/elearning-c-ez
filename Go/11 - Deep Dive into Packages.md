@@ -7,29 +7,29 @@
 
 ### **Question** : The two files math.go and stats.go are stored on the file system under the directory named math. What is the most appropriate choice for the first line of executable code in stats.go?
 
-> package math
+> `package math`
 
 
 #
 ### **Question** : Which are considered best practice when working with packages that comprise multiple files?
 
-> Create a separate doc.go file with full package documentation
+> `Create a separate doc.go file with full package documentation`
 
-> Separate source code and associated test files into different files
+> `Separate source code and associated test files into different `files
 
 
 #
 ### **Question** : Which statements accurately describes the init() function in Go?
 
-> You may not pass any arguments to an init() function
+> `You may not pass any arguments to an init() function`
 
-> Each source file may have multiple init() functions
+> `Each source file may have multiple init() functions`
 
 
 #
 ### **Question** : Assuming you have already installed the package godoc, which command issued at the terminal starts a http server over port 8080 to display documentation for a locally developed package math?
 
-> godoc -http=localhost:8080
+> `godoc -http=localhost:8080`
 
 
 #
@@ -50,7 +50,7 @@ func main() {
 }
 ```
 
-> _ "strings"
+> `_ "strings"`
 
 
 #
@@ -73,31 +73,31 @@ func main() {
 }
 ```
 
-> stats.Avg(vals)
+> `stats.Avg(vals)`
 
 
 #
 ### **Question** : Which command when issued on the first line of a file named mypackage will declare a package named volume?
 
-> package volume
+> `package volume`
 
 
 #
 ### **Question** : You are creating a package for manipulating epoch data. Which is the best name according to best practice naming considerations?
 
-> epoch
+> `epoch`
 
 
 #
 ### **Question** : How do we make members from packages available to external packages?
 
-> Their names must begin with an uppercase letter
+> `Their names must begin with an uppercase letter`
 
 
 #
 ### **Question** : Which statement defines a new release version v0.2.6 for a module that you are uploading to Git Hub source code repository?
 
-> git tag v0.2.6
+> `git tag v0.2.6`
 
 
 #
@@ -123,4 +123,4 @@ func main() {
 }
 ```
 
-> m.Avg
+> `m.Avg`

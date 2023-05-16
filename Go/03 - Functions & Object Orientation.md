@@ -7,7 +7,7 @@
 
 ### **Question**: How is inheritance supported by Go?
 
-> With interfaces
+> `With interfaces`
 
 
 #
@@ -31,7 +31,8 @@ func main() {
     add(1,2,3,4)
 }
 ```
-> ...int
+
+> `...int`
 
 
 #
@@ -57,15 +58,16 @@ func main() {
 	fmt.Println(b.volume())	
 }
 ```
-> (b Box)
 
-> (b *Box)
+> `(b Box)`
+
+> `(b *Box)`
 
 
 #
 ### **Question** : What element is added to a function definition to turn it into a method?
 
-> Receiver
+> `Receiver`
 
 
 #
@@ -90,7 +92,7 @@ func main() {
 }
 ```
 
-> 30, 10, false
+> `30, 10, false`
 
 
 #
@@ -114,7 +116,7 @@ func main() {
 }
 ```
 
-> {3 1 2}
+> `{3 1 2}`
 
 
 #
@@ -131,7 +133,7 @@ return volume
 }
 ```
 
-> range
+> `range`
 
 
 #
@@ -158,7 +160,7 @@ func main() {
 }
 ```
 
-> []float64
+> `[]float64`
 
 
 #
@@ -172,7 +174,7 @@ FoodType() string
 }
 ```
 
-> type Food interface
+> `type Food interface`
 
 
 #
@@ -195,6 +197,6 @@ func main() {
 }
 ```
 
-> &x, &y
+> `&x, &y`
 
 <br>

@@ -7,9 +7,9 @@
 
 ### **Question** : Question: What is the last stage in the pipeline commonly referred to as?
 
-> Sink
+> `Sink`
 
-> Consumer
+> `Consumer`
 
 
 #
@@ -43,7 +43,7 @@ func main() {
 }
 ```
 
-> no data received...
+> `no data received...`
 
 
 #
@@ -65,7 +65,7 @@ select {
 }
 ```
 
-> <-time.After(5 * time.Second)
+> `<-time.After(5 * time.Second)`
 
 
 #
@@ -87,7 +87,7 @@ func main() {
 }
 ```
 
-> ch <- res
+> `ch <- res`
 
 
 #
@@ -120,7 +120,7 @@ func main() {
 }
 ```
 
-> for val := range ch
+> `for val := range ch`
 
 
 #
@@ -130,13 +130,13 @@ func main() {
 ch := make(<missing code>)
 ```
 
-> chan int, 25
+> `chan int, 25`
 
 
 #
 ### **Question** : How can we implement nonblocking sends and receives with a SELECT statement
 
-> By including a default clause
+> `By including a default clause`
 
 
 #
@@ -151,7 +151,7 @@ func receive(ch chan string) {
 }
 ```
 
-> <-ch
+> `<-ch`
 
 
 #
@@ -174,7 +174,7 @@ func main() {
 }
 ```
 
-> fo1, fo2
+> `fo1, fo2`
 
 
 #
@@ -211,23 +211,23 @@ func main() {
 }
 ```
 
-> wg.Wait() // wait for the program to complete
+> `wg.Wait() // wait for the program to complete`
 
 
 #
 ### **Question** : Which Go function returns an object that can be used as an http.ResponseWriter object?
 
-> httptest.NewRecorder
+> `httptest.NewRecorder`
 
 
 #
 ### **Question** : The code that interacts directly with a database should be included in which layer of a Model-View-Controller architecture?
 
-> Repository
+> `Repository`
 
 
 #
 ### **Question** : Which HTTP/2 feature allows clients to get responses from the server without a request?
 
-> Server push
+> `Server push`
 

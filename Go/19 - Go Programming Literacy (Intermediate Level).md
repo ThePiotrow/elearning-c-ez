@@ -7,43 +7,43 @@
 
 ### **Question**: Which software implementation paradigms are supported by Go?
 
-> Procedural
+> `Procedural`
 
-> Distributed
+> `Distributed`
 
-> Concurrent
+> `Concurrent`
 
 
 #
 ### **Question** : The Go programming language is used by some big tech companies and is popular in certain domains. What are some of these domains?
 
-> Cloud-native development
+> `Cloud-native development`
 
-> Distributed network services
+> `Distributed network services`
 
 
 #
 ### **Question** : In which areas does Go present shortcomings?
 
-> Support for generics
+> `Support for generics`
 
-> GUI library support
+> `GUI library support`
 
 
 #
 ### **Question** : Which statement defines a module path at example.local/demo?
 
-> go mod init example.local/demo
+> `go mod init example.local/demo`
 
 
 #
 ### **Question** : What are some implementation-specific data types in Go?
 
-> uintptr
+> `uintptr`
 
-> int
+> `int`
 
-> uint
+> `uint`
 
 
 #
@@ -57,13 +57,13 @@ func main() {
 }
 ```
 
-> 1
+> `1`
 
 
 #
 ### **Question** : Which statement declares and initializes an array of four integer values in Go?
 
-> arr := [4]int{0, 1, 2, 3}
+> `arr := [4]int{0, 1, 2, 3}`
 
 
 #
@@ -87,13 +87,13 @@ func main() {
 }
 ```
 
-> workday
+> `workday`
 
 
 #
 ### **Question** : How is inheritance supported by Go?
 
-> With interfaces
+> `With interfaces`
 
 
 #
@@ -115,7 +115,7 @@ func main() {
 }
 ```
 
-> &x, &y
+> `&x, &y`
 
 
 #
@@ -142,9 +142,9 @@ func main() {
 }
 ```
 
-> (b Box)
+> `(b Box)`
 
-> (b *Box)
+> `(b *Box)`
 
 
 #
@@ -160,21 +160,21 @@ return volume
 }
 ```
 
-> range
+> `range`
 
 
 #
 ### **Question** : Which statements accurately describe error handling in Go?
 
-> Functions may return error values
+> `Functions may return error values`
 
-> Errors in Go are simple values
+> `Errors in Go are simple values`
 
 
 #
 ### **Question** : Given that the signature for Go's built-in panic() function is func panic(v interface{}), what types of values can be passed to panic()?
 
-> Any data type
+> `Any data type`
 
 
 #
@@ -193,4 +193,4 @@ func main() {
 }
 ```
 
-> os.Stat
+> `os.Stat`
