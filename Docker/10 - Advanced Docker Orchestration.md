@@ -82,6 +82,7 @@
 
 #
 ### **Question** : An organization writes software that processes oil well production. They create a container service that handles production data ingress. To handle increased ingress, the service scales out to multiple containers. Well sites send their ingress data to a common URL, where it is load balanced across the multiple containers.
+### Which aspect(s) of orchestration and cluster management does the scaling of containers represent?
 
 > `Orchestration`
 
